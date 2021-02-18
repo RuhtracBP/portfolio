@@ -1,5 +1,60 @@
 .hero-container {
   max-width: 1024px;
   margin: 0 auto;
-  background-color: aqua;
+  border: 2px solid red;
+}
+
+.hero-title {
+  margin: 4em 0 0em 0;
+  padding: 0;
+
+  text-align: center;
+  font-size: 3em;
+  span {
+    color: var(--primary-color-dark);
+  }
+}
+.hero-subtitle {
+  margin-left: 200px;
+  display: inline-flex;
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-size: 2em;
+
+  color: rgba(23, 37, 42, 0.5);
+
+  .hero-effect {
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 20px;
+    //font-family: 'Trebuchet MS';
+
+    &-blinker {
+      animation: blinker 0.5s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
+
+      @keyframes blinker {
+        to {
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 2em auto;
+}
+
+.hero-btn-contact {
+  padding: 1em 2em;
+  margin-right: 2em;
+}
+
+.hero-btn-work {
+  padding: 1em 2em;
+  margin-left: 2em;
 }

@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #3aafa9;
+  --primary-color-light: #def2f1;
+  --primary-color-lighter: #feffff;
+  --primary-color-dark: #2b7a78;
+  --primary-color-darker: #17252a;
+}
+
+@import "partials/topbar";
+@import "partials/hero";

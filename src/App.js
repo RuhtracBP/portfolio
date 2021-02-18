@@ -1,5 +1,7 @@
 import './App.css';
+import './styles/main.css';
 import Topbar from './components/Topbar';
+import Wrapper from './components/Wrapper';
 
 function App() {
   return (
@@ -9,14 +11,8 @@ function App() {
       </header>
       <p>
         <Topbar />
-        navbar <br/>
-
-        wrapper<br/>
-          hero<br/>
-          about<br/>
-          projects<br/>
-          skills<br/>
-          contact<br/>
+        <Wrapper className="wrapper"/>
+        
       </p>
 
     </div>

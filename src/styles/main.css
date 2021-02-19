@@ -542,4 +542,34 @@
   padding: 1em 0;
   z-index: 9;
 }
+
+.skills-container {
+  max-width: 1024px;
+  margin: 10em auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.skills-container h2 {
+  text-align: center;
+  margin: 1em 0;
+  font-size: 3em;
+  color: var(--primary-color-darker);
+}
+
+.skills-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills-list img {
+  width: 6em;
+  height: 6em;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,19 +1,23 @@
-import React from 'react'
+import React from 'react';
+import location from '../svg/location-tag.svg';
+import language from '../svg/language-tag.svg';
+import user from '../svg/user-tag.svg';
 
 function About() {
     return (
         <div>
             <div className="card">
-                <h2>About</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus cupiditate autem alias provident velit rem, iusto sapiente architecto placeat fugiat! Libero aspernatur omnis non possimus rem veniam laboriosam optio minima?
-                    Delectus laboriosam ea voluptatibus ullam, debitis vel voluptatem vitae molestiae aliquid totam! Hic voluptatibus iure dicta at quod asperiores itaque deleniti eaque consequatur voluptate ut suscipit numquam pariatur, atque ab?
-                    Explicabo facilis dicta est laborum soluta placeat, ipsam alias itaque nisi ipsum animi neque blanditiis expedita enim amet repellendus laboriosam impedit, mollitia ducimus rerum minus magni iure. Hic, reprehenderit fugiat.
+                <h2 className="about-title">About</h2>
+                <p className="about-paragraph">
+                    Hy, I'm a front end and full stack developer. I have a passion for technologies and allways
+                    search for new and inovative ways to create build and maintain great ideas. Building web
+                    and mobile applications i developed a liking to UI/UX and been improving in that aspect too.
+                    Seeing the growth of the internet, security comes to mind, so i'm researching about Cybersecurity.
                 </p>
-                <ul>
-                    <li>location</li>
-                    <li>languages</li>
-                    <li>full name</li>
+                <ul className="about-list">
+                    <li><img src={location} alt="location"/> Recife, Pernambuco, Brazil</li>
+                    <li><img src={language} alt="language"/> Portuguese, English</li> 
+                    <li><img src={user} alt="user"/> Arthur Carlos Borges Pereira</li>
                 </ul>
             </div>
         </div>
@@ -21,3 +25,13 @@ function About() {
 }
 
 export default About
+
+
+
+/* 
+
+    Hy, I'm a front end and full stack developer. I have a passion for technologies and allways
+    search for new and inovative ways to create build and maintain great ideas.
+
+
+*/

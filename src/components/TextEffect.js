@@ -1,5 +1,5 @@
 import React from 'react';
-import TextScramble, { ScrambleTexts } from '@twistezo/react-text-scramble';
+import TextScramble from '@twistezo/react-text-scramble';
 
 const scrambleTexts = [
   'front end developer',
@@ -10,7 +10,7 @@ const scrambleTexts = [
 function TextEffect() {
     return (
         <div className='hero-effect'>
-        <span className='hero-effect-blinker'>_</span>
+          <span> :</span>
         <TextScramble
           texts={scrambleTexts}
           letterSpeed={5}

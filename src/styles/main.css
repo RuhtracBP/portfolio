@@ -252,7 +252,7 @@
 .hero-container {
   max-width: 1024px;
   margin: 0 auto;
-  border: 2px solid red;
+  font-family: "Poppins", sans-serif;
 }
 
 .hero-title {
@@ -268,9 +268,9 @@
 
 .hero-subtitle {
   margin-left: 200px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-align: center;
   letter-spacing: 0.2em;
   font-size: 2em;
@@ -283,23 +283,6 @@
   display: flex;
   font-size: 30px;
   margin-bottom: 20px;
-}
-
-.hero-subtitle .hero-effect-blinker {
-  -webkit-animation: blinker 0.5s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
-          animation: blinker 0.5s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
-}
-
-@-webkit-keyframes blinker {
-  to {
-    opacity: 0;
-  }
-}
-
-@keyframes blinker {
-  to {
-    opacity: 0;
-  }
 }
 
 .hero-buttons {
@@ -315,13 +298,137 @@
   margin: 2em auto;
 }
 
-.hero-btn-contact {
-  padding: 1em 2em;
-  margin-right: 2em;
+.hbtn {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0.7em 1.2em;
+  margin: 0px 0.5em 6px 0.5em;
+  text-align: center;
+  border: 2px solid var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2em;
+  border-radius: 16px;
+  white-space: nowrap;
+  z-index: 0;
 }
 
-.hero-btn-work {
-  padding: 1em 2em;
-  margin-left: 2em;
+/*----- CONTACT ME BUTTON----- */
+.hb-fill-middle2-rev::before {
+  position: absolute;
+  content: "";
+  background: var(--primary-color);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  z-index: -1;
+  inset: 0px 0px auto auto;
+  width: 50%;
+  height: 100%;
+  opacity: 1;
+}
+
+.hb-fill-middle2-rev:hover::before {
+  width: 0px;
+  height: 100%;
+  opacity: 1;
+}
+
+.hb-fill-middle2-rev {
+  background: var(--primary-color);
+  color: #fff;
+  -webkit-transition: color 0.3s ease 0s, background 0s ease 0.3s;
+  transition: color 0.3s ease 0s, background 0s ease 0.3s;
+}
+
+.hb-fill-middle2-rev:hover {
+  background: transparent;
+  color: #000;
+  -webkit-transition: color 0.3s ease 0s, background 0s ease 0s;
+  transition: color 0.3s ease 0s, background 0s ease 0s;
+}
+
+.hb-fill-middle2-rev::after {
+  position: absolute;
+  content: "";
+  background: var(--primary-color);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  z-index: -1;
+  inset: 0px auto auto 0px;
+  width: 50%;
+  height: 100%;
+  opacity: 1;
+}
+
+.hb-fill-middle2-rev:hover::after {
+  width: 0px;
+}
+
+/*----- SEE MY WORK BUTTON----- */
+.hb-fill-middle2::before {
+  position: absolute;
+  content: "";
+  background: var(--primary-color);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  z-index: -1;
+  inset: 0px 0px auto auto;
+  width: 0px;
+  height: 100%;
+  opacity: 1;
+}
+
+.hb-fill-middle2:hover::before {
+  width: 50%;
+  height: 100%;
+  opacity: 1;
+}
+
+.hb-fill-middle2 {
+  background: transparent;
+  color: #000;
+  -webkit-transition: color 0.3s ease 0s, background 0s ease 0s;
+  transition: color 0.3s ease 0s, background 0s ease 0s;
+}
+
+.hb-fill-middle2:hover {
+  color: #fff;
+  background: var(--primary-color);
+  -webkit-transition: color 0.3s ease 0s, background 0s ease 0.3s;
+  transition: color 0.3s ease 0s, background 0s ease 0.3s;
+}
+
+.hb-fill-middle2::after {
+  position: absolute;
+  content: "";
+  background: var(--primary-color);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  z-index: -1;
+  inset: 0px auto auto 0px;
+  width: 0px;
+  height: 100%;
+  opacity: 1;
+}
+
+.hb-fill-middle2:hover::after {
+  width: 50%;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts a {
+  margin: 0 1em;
 }
 /*# sourceMappingURL=main.css.map */

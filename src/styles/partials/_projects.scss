@@ -1,0 +1,57 @@
+.projects {
+  max-width: 1024px;
+  margin: 0 auto;
+
+  font-family: "Poppins", sans-serif;
+
+  h2 {
+    text-align: center;
+    margin: 1em 0;
+    font-size: 3em;
+    color: var(--primary-color-darker);
+  }
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-carousel {
+  width: 70%;
+}
+
+.project-card {
+  position: relative;
+}
+
+.project-title {
+  position: absolute;
+  color: transparent;
+
+  width: 50px;
+  height: 50px;
+
+  left: 20px;
+
+  margin: 1em 0;
+  padding: 1em 0;
+
+  z-index: 9;
+}
+.project-title-2 {
+  position: absolute;
+  color: transparent;
+
+  width: 50px;
+  height: 50px;
+
+  left: 20px;
+  top: 60px;
+
+  margin: 1em 0;
+  padding: 1em 0;
+
+  z-index: 9;
+}

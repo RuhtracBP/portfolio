@@ -5,7 +5,7 @@ import user from '../svg/userTag.svg';
 
 function About() {
     return (
-        <div>
+        <div id="About">
             <div className="card">
                 <h2 className="about-title">About</h2>
                 <p className="about-paragraph">

@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
     return (
             
-        <div className="card contact-card">
+        <div className="card contact-card" id="Contact">
             <h2 className="contact-title">Contact me</h2>
             <form className="contact-form" action="">
                 <input className="contact-name" placeholder="Name" type="text"/>

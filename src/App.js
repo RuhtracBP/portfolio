@@ -10,11 +10,15 @@ function App() {
       <header className="App-header">
         
       </header>
-      <p>
-        <Topbar />
-        <Wrapper className="wrapper"/>
+      
+      <Topbar />
+      <Wrapper className="wrapper"/>
+
+
+      
+    
         
-      </p>
+      
 
     </div>
   );

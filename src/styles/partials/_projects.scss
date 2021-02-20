@@ -1,6 +1,6 @@
 .projects {
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 6em auto;
 
   font-family: "Poppins", sans-serif;
 
@@ -10,6 +10,10 @@
     font-size: 3em;
     color: var(--primary-color-darker);
   }
+}
+
+#Project {
+  padding: 2em 0;
 }
 
 .projects-container {

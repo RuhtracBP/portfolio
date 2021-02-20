@@ -15,7 +15,7 @@ import link from '../svg/weblink.svg'
 
 function Projects() {
     return (
-        <div className="projects">
+        <div className="projects" id="Project">
             <h2>Projects</h2>
             <div className="projects-container">
                 <Carousel  className="projects-carousel" >

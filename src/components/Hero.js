@@ -7,7 +7,7 @@ import mail from '../svg/mail.svg';
 
 function Hero() {
     return (
-        <div className="hero-container">
+        <div className="hero-container" id="Hero">
             <h1 className="hero-title">Hello, i'm <span>Arthur Borges Pereira</span></h1>
             <h3 className="hero-subtitle">I'm a  <TextEffect /> </h3>
             <div className="hero-buttons">

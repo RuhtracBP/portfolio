@@ -9,11 +9,11 @@ function Topbar() {
 
                 <navbar className="menu">
                     <ul className="menu-list">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">About</a></li>
-                        <li><a href="/">Projects</a></li>
-                        <li><a href="/">Skills</a></li>
-                        <li><a href="/">Contact</a></li>
+                        <li><a className="from-top" href="#">Home</a></li>
+                        <li><a className="from-top" href="#About">About</a></li>
+                        <li><a className="from-top" href="#Project">Projects</a></li>
+                        <li><a className="from-top" href="#Skills">Skills</a></li>
+                        <li><a className="from-top" href="#Contact">Contact</a></li>
                     </ul>            
                 </navbar>
             </div>

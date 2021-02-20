@@ -1,6 +1,6 @@
 .card {
   max-width: 1024px;
-  margin: 8em auto;
+  margin: 12em auto;
 
   background-color: var(--primary-color-dark);
   border-radius: 2em;
@@ -8,6 +8,10 @@
   color: #fff;
 
   font-family: "Poppins", sans-serif;
+}
+
+#About {
+  padding: 2em 0;
 }
 
 .about-title {

@@ -10,8 +10,8 @@ import git from '../svg/git.svg'
 
 function Skills() {
     return (
-        <div>
-            <div className="skills-container">
+        <div id="Skills">
+            <div className="skills-container" >
                 <h2>Skills</h2>
                 <div className="skills-list">
                     <img className="html" src={html} alt="html"/>

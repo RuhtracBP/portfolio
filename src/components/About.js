@@ -1,7 +1,7 @@
 import React from 'react';
-import location from '../svg/location-tag.svg';
-import language from '../svg/language-tag.svg';
-import user from '../svg/user-tag.svg';
+import location from '../svg/locationTag.svg';
+import language from '../svg/languageTag.svg';
+import user from '../svg/userTag.svg';
 
 function About() {
     return (

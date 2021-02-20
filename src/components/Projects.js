@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
@@ -35,7 +34,7 @@ function Projects() {
                         </a>
                         <a className="project-title-2" href="/">
                             <img src={link} alt="github"/>
-                        </a><a className="project-title" href="/"></a>
+                        </a>
                         <img src={pokedex} alt="artist"/>
                     </div>
                     <div className="project-card">

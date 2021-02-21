@@ -7,7 +7,7 @@ function Topbar() {
             <div className="topbar-container">
                 <img className="logo-svg" src={Logo} alt="teste"/>
 
-                <navbar className="menu">
+                <nav className="menu">
                     <ul className="menu-list">
                         <li><a className="from-top" href="#">Home</a></li>
                         <li><a className="from-top" href="#About">About</a></li>
@@ -15,7 +15,7 @@ function Topbar() {
                         <li><a className="from-top" href="#Skills">Skills</a></li>
                         <li><a className="from-top" href="#Contact">Contact</a></li>
                     </ul>            
-                </navbar>
+                </nav>
             </div>
                 
             

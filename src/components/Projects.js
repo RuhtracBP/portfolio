@@ -20,40 +20,40 @@ function Projects() {
             <div className="projects-container">
                 <Carousel  className="projects-carousel" >
                     <div className="project-card ">
-                        <a className="project-title" href="/">
+                        <a className="project-title" href="https://github.com/RuhtracBP/Artist-home-page" target="_blank" rel="noopener noreferrer" >
                             <img src={github2} alt="github"/>
                         </a>
-                        <a className="project-title-2" href="/">
+                        <a className="project-title-2" href="https://artist-home-page-git-main.ruhtracbp.vercel.app" target="_blank" rel="noopener noreferrer" >
                             <img src={link} alt="github"/>
                         </a>
-                        <img href="/" src={artist} alt="artist" />
+                        <img  src={artist} alt="artist" />
                     </div>
                     <div className="project-card">
-                        <a className="project-title" href="/">
+                        <a className="project-title" href="https://github.com/RuhtracBP/simple-pokedex">
                             <img src={github2} alt="github"/>
                         </a>
-                        <a className="project-title-2" href="/">
+                        <a className="project-title-2" href="https://simple-pokedex.ruhtracbp.vercel.app">
                             <img src={link} alt="github"/>
                         </a>
-                        <img src={pokedex} alt="artist"/>
+                        <img src={pokedex} alt="pokedex"/>
                     </div>
                     <div className="project-card">
-                        <a className="project-title" href="/">
+                        <a className="project-title" href="https://github.com/RuhtracBP/currency-converter" target="_blank" rel="noopener noreferrer">
                             <img src={github2} alt="github"/>
                         </a>
-                        <a className="project-title-2" href="/">
+                        <a className="project-title-2" href="http://currency-converter.ruhtracbp.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <img src={link} alt="github"/>
                         </a>
-                        <img src={currency} alt="artist"/>
+                        <img src={currency} alt="currency converter"/>
                     </div>
                     <div className="project-card">
-                        <a className="project-title" href="/">
+                        <a className="project-title" href="https://github.com/RuhtracBP/spiderman-MilesMorales" target="_blank" rel="noopener noreferrer">
                             <img src={github2} alt="github"/>
                         </a>
-                        <a className="project-title-2" href="/">
+                        <a className="project-title-2" href="http://spiderman-miles-morales.ruhtracbp.vercel.app/">
                             <img src={link} alt="github"/>
                         </a>
-                        <img src={spider} alt="artist"/>
+                        <img src={spider} alt="spider man"/>
                     </div>
                 </Carousel>
                 

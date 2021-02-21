@@ -11,13 +11,13 @@ function Hero() {
             <h1 className="hero-title">Hello, i'm <span>Arthur Borges Pereira</span></h1>
             <h3 className="hero-subtitle">I'm a  <TextEffect /> </h3>
             <div className="hero-buttons">
-                <button className="hero-btn-contact hbtn hb-fill-middle2-rev">Contact me</button>
-                <button className="hero-btn-work hbtn hb-fill-middle2">See my work</button>
+                <button href="#Contact" className="hero-btn-contact hbtn hb-fill-middle2-rev">Contact me</button>
+                <button href="https://github.com/RuhtracBP?tab=repositories" rel="noopener noreferrer" target="_blank" className="hero-btn-work hbtn hb-fill-middle2">See my work</button>
             </div>
             <div className="contacts">
-                <a href="/"><img src={linkedin} alt="linkedin"/></a>
-                <a href="/"><img src={github} alt="github"/></a>
-                <a href="/"><img src={mail} alt="email"/></a>
+                <a href="https://www.linkedin.com/in/arthurcbp" rel="noopener noreferrer" target="_blank" ><img src={linkedin} alt="linkedin"/></a>
+                <a href="https://github.com/RuhtracBP" rel="noopener noreferrer" target="_blank"><img src={github} alt="github"/></a>
+                <a href = "mailto: arthurhcbp@gmail.com" ><img src={mail} alt="email"/></a>
             </div>
         </div>
     )

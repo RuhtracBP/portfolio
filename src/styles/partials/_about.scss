@@ -12,6 +12,7 @@
 
 #About {
   padding: 2em 0;
+  margin: 0 auto;
 }
 
 .about-title {
@@ -43,6 +44,24 @@
 
     img {
       margin-right: 0.6em;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    margin: 8em 1.3em;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .card {
+    margin: 2em 1.1em;
+  }
+  .about-list {
+    flex-direction: column;
+    li {
+      margin: 1em auto;
     }
   }
 }

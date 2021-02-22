@@ -26,3 +26,25 @@
 #Skills {
   padding: 2em 0;
 }
+
+@media only screen and (max-width: 1024px) {
+  .skills-container {
+    margin: 8em 1.3em;
+  }
+  .skills-list {
+    flex-direction: column;
+
+    img {
+      margin: 1em auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  #Skills {
+    margin: 0;
+  }
+  .skills-container {
+    margin: 1em auto;
+  }
+}

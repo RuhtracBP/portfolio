@@ -1,13 +1,20 @@
-import React from 'react'
-import Logo from '../svg/logo.svg'
-
+import React, { useState, useCallback } from 'react';
+import Logo from '../svg/logo.svg';
+import Sidebar from './Sidebar';
+ 
 function Topbar() {
+
+
     return (
         <div className="topbar">
             <div className="topbar-container">
                 <img className="logo-svg" src={Logo} alt="teste"/>
 
-                <nav className="menu">
+                <nav className="menu" id="outer-continer">
+                    <Sidebar id="opa" outerContainerId={'outer-container'} />
+
+                    
+
                     <ul className="menu-list">
                         <li><a className="from-top" href="#">Home</a></li>
                         <li><a className="from-top" href="#About">About</a></li>

@@ -9,7 +9,7 @@ function Hero() {
     return (
         <div className="hero-container" id="Hero">
             <h1 className="hero-title">Hello, i'm <span>Arthur Borges Pereira</span></h1>
-            <h3 className="hero-subtitle">I'm a  <TextEffect /> </h3>
+            <h3 className="hero-subtitle">I'm a  <TextEffect  /> </h3>
             <div className="hero-buttons">
                 <button href="#Contact" className="hero-btn-contact hbtn hb-fill-middle2-rev">Contact me</button>
                 <button href="https://github.com/RuhtracBP?tab=repositories" rel="noopener noreferrer" target="_blank" className="hero-btn-work hbtn hb-fill-middle2">See my work</button>

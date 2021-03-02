@@ -446,6 +446,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
   margin: 2em auto;
 }
 
+.hero-buttons a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .hbtn {
   position: relative;
   display: inline-block;
@@ -495,6 +500,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
   transition: color 0.3s ease 0s, background 0s ease 0s;
 }
 
+.hb-fill-middle2-rev:hover a {
+  color: #000;
+}
+
 .hb-fill-middle2-rev::after {
   position: absolute;
   content: "";
@@ -539,11 +548,19 @@ Note: Beware of modifying this element as it can break the animations - you shou
   transition: color 0.3s ease 0s, background 0s ease 0s;
 }
 
+.hb-fill-middle2 a {
+  color: #000;
+}
+
 .hb-fill-middle2:hover {
   color: #fff;
   background: var(--primary-color);
   -webkit-transition: color 0.3s ease 0s, background 0s ease 0.3s;
   transition: color 0.3s ease 0s, background 0s ease 0.3s;
+}
+
+.hb-fill-middle2:hover a {
+  color: #fff;
 }
 
 .hb-fill-middle2::after {
